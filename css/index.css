@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+:root {
+    font-size:20px;
+    font-family: Pacifico;
+}
+#selected {
+    color: rgba(35, 70, 90, 0.5);
+}
+
+h1,
+.green {
+    color: green;
+}
+
+div > p{
+    color: yellow;
+}
+
+div~p{
+    color:violet;
+}
+p[id] {
+    background-color: grey;
+}
+
+p:hover{
+    border: 1px solid black;
+}
+
+p::first-letter {
+    font-size: 3rem;
+}
